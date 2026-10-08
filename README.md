@@ -20,14 +20,12 @@ Add the entries from this folder's `symbols.txt` to your project's `GameSource/s
 
 ### 3. Update the version entries
 
-Using base Pulladium? Follow `gameversionspulladium.txt` instead of `gameversions.txt`. That list is based on the Pulladium version file supplied with this package work. Both lists use the same remove/add instructions; apply only the one matching your starting project.
-
-Open this folder's `gameversions.txt` beside your project's `GameSource/versions.txt`. 
 
 
-Some existing ranges must be replaced, not just appended. Removing the marked lines first prevents overlapping mappings. If you previously changed one of those ranges yourself, compare it before replacing it.
+Open this folder's `gameversions.txt` or pulladium one beside your project's `GameSource/versions.txt`. 
 
-The two modules include the same list. Apply it once even when installing both.
+
+Then add and remove versions
 
 ### 4. Configure the module
 
